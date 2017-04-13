@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:ignore="RtlHardcoded,ContentDescription">
+
+    <!--way-->
+    <ImageView
+        android:id="@+id/iv_way1"
+        android:layout_width="56dp"
+        android:layout_height="155dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="110dp"
+        android:layout_marginRight="50dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_way2"
+        android:layout_width="56dp"
+        android:layout_height="162dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="35dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_way3"
+        android:layout_width="61dp"
+        android:layout_height="157dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_way4"
+        android:layout_width="104dp"
+        android:layout_height="111dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="110dp"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone" />
+
+    <!--fire-->
+    <ImageView
+        android:id="@+id/iv_fire1"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="62dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_fire2"
+        android:layout_width="97dp"
+        android:layout_height="97dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="310dp"
+        android:layout_marginRight="50dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_fire3"
+        android:layout_width="245dp"
+        android:layout_height="245dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="180dp"
+        android:layout_marginLeft="40dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_fire4"
+        android:layout_width="103dp"
+        android:layout_height="103dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="168dp"
+        android:layout_marginLeft="65dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <!--castle-->
+    <LinearLayout
+        android:id="@+id/ll_castle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_castle"
+            android:layout_width="207dp"
+            android:layout_height="192dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <!--light-->
+    <ImageView
+        android:id="@+id/iv_light1"
+        android:layout_width="74dp"
+        android:layout_height="254dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="-37dp"
+        android:rotation="50"
+        android:scaleType="centerCrop"
+        android:transformPivotX="37dp"
+        android:transformPivotY="254dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_light2"
+        android:layout_width="74dp"
+        android:layout_height="254dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginRight="80dp"
+        android:rotation="30"
+        android:scaleType="centerCrop"
+        android:transformPivotX="37dp"
+        android:transformPivotY="254dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_light3"
+        android:layout_width="74dp"
+        android:layout_height="254dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginLeft="80dp"
+        android:rotation="-30"
+        android:scaleType="centerCrop"
+        android:transformPivotX="37dp"
+        android:transformPivotY="254dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_light4"
+        android:layout_width="74dp"
+        android:layout_height="254dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="-40dp"
+        android:rotation="-50"
+        android:scaleType="centerCrop"
+        android:transformPivotX="40dp"
+        android:transformPivotY="254dp"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/click"
+        android:text="点我执行动画"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+</FrameLayout>
